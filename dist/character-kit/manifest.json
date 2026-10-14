@@ -1,0 +1,477 @@
+{
+  "format": "raster-puppet-v4",
+  "viewBox": [
+    0,
+    0,
+    320,
+    480
+  ],
+  "parts": [
+    "head",
+    "body",
+    "upper-arm-left",
+    "upper-arm-right",
+    "forearm-left",
+    "forearm-right",
+    "hand-left",
+    "hand-right",
+    "upper-leg-left",
+    "upper-leg-right",
+    "shin-left",
+    "shin-right",
+    "shoe-left",
+    "shoe-right",
+    "orb",
+    "hand-right-open"
+  ],
+  "partsDirectory": "raster-parts",
+  "joints": {
+    "root": [
+      160,
+      310
+    ],
+    "body": [
+      160,
+      313
+    ],
+    "head": [
+      161,
+      185
+    ],
+    "arm-left": [
+      114,
+      215
+    ],
+    "elbow-left": [
+      91,
+      269
+    ],
+    "wrist-left": [
+      87,
+      307
+    ],
+    "arm-right": [
+      207,
+      215
+    ],
+    "elbow-right": [
+      231,
+      269
+    ],
+    "wrist-right": [
+      236,
+      307
+    ],
+    "leg-left": [
+      141,
+      316
+    ],
+    "knee-left": [
+      138,
+      370
+    ],
+    "ankle-left": [
+      139,
+      414
+    ],
+    "leg-right": [
+      183,
+      316
+    ],
+    "knee-right": [
+      188,
+      370
+    ],
+    "ankle-right": [
+      188,
+      414
+    ],
+    "orb": [
+      52,
+      155
+    ]
+  },
+  "regions": {
+    "head": {
+      "bounds": [
+        8,
+        16,
+        330,
+        326
+      ],
+      "placement": [
+        77,
+        22,
+        170,
+        168
+      ],
+      "file": "closed-atlas.png",
+      "matrix": null
+    },
+    "body": {
+      "bounds": [
+        125,
+        140,
+        1000,
+        1014
+      ],
+      "placement": [
+        83,
+        176,
+        154,
+        157
+      ],
+      "file": "torso.png",
+      "matrix": null
+    },
+    "upper-arm-left": {
+      "bounds": [
+        976,
+        45,
+        216,
+        283
+      ],
+      "placement": null,
+      "file": "closed-atlas.png",
+      "matrix": [
+        0.3371019534385871,
+        -0.039938453304789935,
+        0.039938453304789935,
+        0.3371019534385871,
+        -270.56435643564356,
+        223.6435643564356
+      ]
+    },
+    "upper-arm-right": {
+      "bounds": [
+        687,
+        45,
+        219,
+        281
+      ],
+      "placement": null,
+      "file": "closed-atlas.png",
+      "matrix": [
+        0.3467128027681661,
+        0.02491349480968858,
+        -0.02491349480968858,
+        0.3467128027681661,
+        -50.343944636678174,
+        158.86989619377164
+      ]
+    },
+    "forearm-left": {
+      "bounds": [
+        379,
+        351,
+        150,
+        274
+      ],
+      "placement": null,
+      "file": "closed-atlas.png",
+      "matrix": [
+        0.23478260869565218,
+        -0.008695652173913044,
+        0.008695652173913044,
+        0.23478260869565218,
+        -24.069565217391304,
+        177.3391304347826
+      ]
+    },
+    "forearm-right": {
+      "bounds": [
+        101,
+        351,
+        150,
+        274
+      ],
+      "placement": null,
+      "file": "closed-atlas.png",
+      "matrix": [
+        0.23698735147566116,
+        -0.011920275967803757,
+        0.011920275967803757,
+        0.23698735147566116,
+        190.58842468378688,
+        174.09720199310084
+      ]
+    },
+    "hand-left": {
+      "bounds": [
+        686,
+        454,
+        160,
+        156
+      ],
+      "placement": null,
+      "file": "closed-atlas.png",
+      "matrix": [
+        0.2,
+        0,
+        0,
+        0.2,
+        -69.4,
+        214.6
+      ]
+    },
+    "hand-right": {
+      "bounds": [
+        1010,
+        454,
+        178,
+        156
+      ],
+      "placement": null,
+      "file": "closed-atlas.png",
+      "matrix": [
+        0.2,
+        0,
+        0,
+        0.2,
+        16.599999999999994,
+        213.39999999999998
+      ]
+    },
+    "upper-leg-left": {
+      "bounds": [
+        66,
+        631,
+        189,
+        294
+      ],
+      "placement": null,
+      "file": "closed-atlas.png",
+      "matrix": [
+        0.3240243725518642,
+        -0.03307703467285652,
+        0.03307703467285652,
+        0.3240243725518642,
+        62.6431162048455,
+        100.05657913825618
+      ]
+    },
+    "upper-leg-right": {
+      "bounds": [
+        391,
+        629,
+        185,
+        299
+      ],
+      "placement": null,
+      "file": "closed-atlas.png",
+      "matrix": [
+        0.305700169114965,
+        0.06379944954736877,
+        -0.06379944954736877,
+        0.305700169114965,
+        86.01674569751633,
+        77.55333753357431
+      ]
+    },
+    "shin-left": {
+      "bounds": [
+        707,
+        641,
+        163,
+        270
+      ],
+      "placement": null,
+      "file": "closed-atlas.png",
+      "matrix": [
+        0.2683271375464684,
+        -0.002825278810408922,
+        0.002825278810408922,
+        0.2683271375464684,
+        -73.80951672862454,
+        184.38037174721188
+      ]
+    },
+    "shin-right": {
+      "bounds": [
+        1010,
+        641,
+        163,
+        270
+      ],
+      "placement": null,
+      "file": "closed-atlas.png",
+      "matrix": [
+        0.2682926829268293,
+        0.0,
+        -0.0,
+        0.2682926829268293,
+        -103.3658536585366,
+        182.1951219512195
+      ]
+    },
+    "shoe-left": {
+      "bounds": [
+        18,
+        969,
+        280,
+        230
+      ],
+      "placement": null,
+      "file": "closed-atlas.png",
+      "matrix": [
+        0.24,
+        0,
+        0,
+        0.24,
+        93.4,
+        172.08
+      ]
+    },
+    "shoe-right": {
+      "bounds": [
+        347,
+        969,
+        266,
+        230
+      ],
+      "placement": null,
+      "file": "closed-atlas.png",
+      "matrix": [
+        0.24,
+        0,
+        0,
+        0.24,
+        78.8,
+        172.08
+      ]
+    },
+    "orb": {
+      "bounds": [
+        595,
+        900,
+        386,
+        354
+      ],
+      "placement": [
+        -22,
+        105,
+        138,
+        126
+      ],
+      "file": "closed-atlas.png",
+      "matrix": null
+    },
+    "hand-right-open": {
+      "bounds": [
+        974,
+        952,
+        268,
+        213
+      ],
+      "placement": null,
+      "file": "closed-atlas.png",
+      "matrix": [
+        -0.18,
+        0,
+        0,
+        -0.18,
+        443.17999999999995,
+        512.74
+      ]
+    }
+  },
+  "sourceAnchors": {
+    "upper-arm-left": [
+      [
+        1128,
+        108
+      ],
+      [
+        1042,
+        258
+      ],
+      "arm-left",
+      "elbow-left"
+    ],
+    "upper-arm-right": [
+      [
+        750,
+        108
+      ],
+      [
+        830,
+        258
+      ],
+      "arm-right",
+      "elbow-right"
+    ],
+    "forearm-left": [
+      [
+        475,
+        408
+      ],
+      [
+        452,
+        569
+      ],
+      "elbow-left",
+      "wrist-left"
+    ],
+    "forearm-right": [
+      [
+        150,
+        408
+      ],
+      [
+        163,
+        569
+      ],
+      "elbow-right",
+      "wrist-right"
+    ],
+    "upper-leg-left": [
+      [
+        172,
+        684
+      ],
+      [
+        146,
+        848
+      ],
+      "leg-left",
+      "knee-left"
+    ],
+    "upper-leg-right": [
+      [
+        460,
+        684
+      ],
+      [
+        511,
+        850
+      ],
+      "leg-right",
+      "knee-right"
+    ],
+    "shin-left": [
+      [
+        782,
+        700
+      ],
+      [
+        784,
+        864
+      ],
+      "knee-left",
+      "ankle-left"
+    ],
+    "shin-right": [
+      [
+        1086,
+        700
+      ],
+      [
+        1086,
+        864
+      ],
+      "knee-right",
+      "ankle-right"
+    ]
+  },
+  "artwork": "Closed fabric ends with calibrated source-to-joint transforms and overlapping child layers."
+}
