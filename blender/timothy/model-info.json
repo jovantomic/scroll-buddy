@@ -1,0 +1,13 @@
+{
+  "mesh_objects": 219,
+  "vertices": 91196,
+  "bones": 18,
+  "actions": [
+    "Celebrate",
+    "Idle",
+    "Jump",
+    "Run",
+    "Wave"
+  ],
+  "glb_bytes": 6022624
+}

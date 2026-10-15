@@ -1,0 +1,14 @@
+{
+  "saved_pose": "neutral",
+  "continuous_limb_meshes": "closed/manifold",
+  "deformation_samples": 25,
+  "animations": [
+    "Idle",
+    "Run",
+    "Wave",
+    "Jump",
+    "Celebrate"
+  ],
+  "glb_skin_count": 1,
+  "bytes": 6022624
+}

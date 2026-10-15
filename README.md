@@ -2,6 +2,10 @@
 
 Complete website and rendered character kit, including the original scroll demo and repaired revision 4 rig.
 
+## New: real Blender model
+
+[Blender project and GLB](blender/timothy/) — first 3D modeling pass, 18-bone rig, five clips, studio renders and an interactive scroll viewer. See that folder’s README for fidelity limits and usage.
+
 ## Run locally
 
 No installation or build step is required. From this repository, run:
